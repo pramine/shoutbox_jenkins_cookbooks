@@ -702,7 +702,7 @@
           "Version": "11.10"
         },
         "CustomCookbooksSource": {
-          "Revision" : "vpc-rewrite",
+          "Revision" : "master",
           "Type": "git",
           "Url": "https://github.com/stelligent/shoutbox_jenkins_cookbooks.git"
         },
@@ -1247,6 +1247,7 @@
         ],
         "Os": "Amazon Linux 2014.09",
         "RootDeviceType": "ebs",
+        "SshKeyName": "jeff-labs",
         "StackId": {
           "Ref": "jenkinsstack"
         }
